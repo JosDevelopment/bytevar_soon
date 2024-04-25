@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .bgd{
-    background: #0008;
+    background: #0007;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -36,10 +36,10 @@ body{
     background-color: var(--color2);
 }
 .c3{
-    background-color: var(--color3);
+    background-color: var(--color4);
 }
 .c4{
-    background-color: var(--color4);
+    background-color: var(--color3);
 }
 
 /* title */
