@@ -1,20 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import { Button, Title } from './components/imports'
-
-
 function App() {
-
   return (
-    <div id='Soon'>
-      <div className="bgd"></div>
-      <div className='back c1'></div>
-      <div className='back c2'></div>
-      <div className='back c3'></div>
-      <div className='back c4'></div>
-      <Title className='t1' content="ByteVar"/>
-      <Title className='t2' content='¡¡We Are Comming Soon!!' fst />
+    <>
+    <div className="flex flex-wrap w-screen h-screen relative">
+      <div className="bg-blueScale-700 w-1/2 h-1/2"></div>
+      <div className="bg-blueScale-400 w-1/2 h-1/2"></div>
+      <div className="bg-blueScale-900 w-1/2 h-1/2"></div>
+      <div className="bg-blueScale-500 w-1/2 h-1/2"></div>
+
+      <div className="bg-[#0005] absolute left-0 top-0 w-full h-full z-10"></div>
+      <h1 className="capitalize font-bold text-white absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2 px-6 text-[8vw] sm:text-[7vw] lg:text-[6vw] 4k:text-[6vw] w-full text-center">¡¡we are comming soon!!</h1>
+      <h2 className="text-white font-bold absolute left-[6vw] top-[6vw] md:left-[3vw] md:top-[3vw] z-20 text-[8vw] sm:text-[7vw] lg:text-[6vw] 4k:text-[4vw]">ByteVar</h2>
     </div>
+    </>
   )
 }
 

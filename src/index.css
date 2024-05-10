@@ -1,47 +1,18 @@
-:root{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-    scroll-behavior: smooth;
-  
-    /* default values */
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 200;
-    font-size: 1vw;
-    color: #fff;
-    
-    /* size */
-    --sTitle: 4.5em;
-    --sSubtitle: 2.5em;
-    --sInfo: 1.5em;
-    --sButton: 1.2em;
-    --sText: 1em;
-    
-    /* weight */
-    --wTitles: 650;
-    --wButton: 500;
-    --wLink:350;
-    --wText:300;
-    
-    /* height */
-    /* --hTitle:; */
-    /* --hSubTitle:; */
-    /* --hButton:; */
-    /* --hLink:; */
-    /* --hText:; */
-  
-    /* 4 colors */
-    --color1: #0060ff;
-    --color2: #83d2ff;
-    --color3: #1e95ff;
-    --color4: #084ac5;
-  }
-  
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  a{
-    text-decoration: none;
-  }
+:root{
+  scroll-behavior: smooth;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow: hidden;
+}
